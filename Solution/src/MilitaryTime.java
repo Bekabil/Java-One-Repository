@@ -1,9 +1,22 @@
+/**
+ * @author Bekabil Tolassa
+ * 
+ * 
+ * Given a time in AM/PM format, this program converts it to military (24-hour) time.
+
+ * Input Format
+ * A single string containing a time in 12-hour clock format.
+  
+ * Output Format
+ * Convert and print the given time in 24-hour format.
+ * 
+ */
 
 public class MilitaryTime {
 
 	public static void main(String[] args) {
 		
-		String standardTime = "10:00:00AM";
+		String standardTime = "09:00:00PM";
 		
 		String hour = "0";
 		String hour2 = "";
