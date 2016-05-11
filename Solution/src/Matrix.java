@@ -1,5 +1,21 @@
 import java.util.Scanner;
-
+/**
+ * 
+ * @author Bekabil Tolassa
+ * 
+ * Given a square matrix of size N×N, this program calculate the absolute difference 
+ * between the sums of its diagonals.
+ * 
+ * Input Format
+ * The first input contains a single integer, N to denote the size of Matrix. 
+ * The next N input denote the matrix's rows, with each line containing 
+ * N space-separated integers describing the columns.
+ *
+ * Output Format
+ * the sum of left side diagonal
+ * the sum of right side diagonal
+ * absolute value of the difference of the two diagonals
+ */
 
 public class Matrix {
 	private static int size = 3;
