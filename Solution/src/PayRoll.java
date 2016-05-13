@@ -1,7 +1,7 @@
 
 import javax.swing.*;
 
-	/*
+	/**
 	 * Name:	Bekabil Tolassa
 	 * Class:	ICS 140 
 	 * Project:	This program reads employee's name, number of hours worked in a week,
@@ -77,7 +77,7 @@ import java.text.DecimalFormat;
 			totalDeduction = fedTaxRate + stateTaxRate;
 			
 			//the difference of gross pay and total deduction is assigned to netPay
-			netPay = grossPay - totalDeduction;
+			netPay = Math.abs(grossPay - totalDeduction);
 			 
 			
 			//formatted and indented employee's pay roll to be printed out to the message dialog box
